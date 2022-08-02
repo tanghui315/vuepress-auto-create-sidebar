@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-auto-create-sidebar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felix",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.49"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --config ./config.js",
+    "docs:build": "vuepress build docs --config ./config.js"
+  }
+}
